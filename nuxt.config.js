@@ -3,7 +3,7 @@ import shrinkRay from 'shrink-ray-current'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  
+
   loading: {
     color: 'blue',
     height: '3px',
@@ -58,8 +58,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-lazy-load',
-    '@nuxtjs/axios',
+    // 'nuxt-lazy-load',
+    // '@nuxtjs/axios',
     '@nuxtjs/component-cache',
     'vue-sweetalert2/nuxt'
   ],
@@ -88,7 +88,7 @@ export default {
       );
     }
   },
-  
+
   render: {
     compressor: shrinkRay()
   },
